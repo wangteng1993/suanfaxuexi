@@ -1,4 +1,4 @@
-package com.example.suanfaxuexiwangteng.找到所有数组中消失的数字;
+package com.example.suanfaxuexiwangteng.数组.找到所有数组中消失的数字;
 
 import java.util.ArrayList;
 

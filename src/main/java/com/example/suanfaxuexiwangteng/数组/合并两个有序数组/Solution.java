@@ -1,4 +1,4 @@
-package com.example.suanfaxuexiwangteng.合并两个有序数组;
+package com.example.suanfaxuexiwangteng.数组.合并两个有序数组;
 
 import java.util.Arrays;
 

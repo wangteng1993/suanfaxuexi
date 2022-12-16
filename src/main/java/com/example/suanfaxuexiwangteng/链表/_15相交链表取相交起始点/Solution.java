@@ -1,7 +1,7 @@
-package com.example.suanfaxuexiwangteng._15相交链表取相交起始点;
+package com.example.suanfaxuexiwangteng.链表._15相交链表取相交起始点;
 
 import cn.hutool.json.JSONUtil;
-import com.example.suanfaxuexiwangteng.common.ListNode;
+import com.example.suanfaxuexiwangteng.链表.common.ListNode;
 
 import static java.lang.Math.abs;
 

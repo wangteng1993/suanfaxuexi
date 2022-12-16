@@ -1,7 +1,7 @@
-package com.example.suanfaxuexiwangteng._19链表中倒数第k个节点;
+package com.example.suanfaxuexiwangteng.链表._19链表中倒数第k个节点;
 
 import cn.hutool.json.JSONUtil;
-import com.example.suanfaxuexiwangteng.common.ListNode;
+import com.example.suanfaxuexiwangteng.链表.common.ListNode;
 
 public class Solution {
     public static void main(String[] args) {

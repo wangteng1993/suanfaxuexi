@@ -1,4 +1,4 @@
-package com.example.suanfaxuexiwangteng.合并两个有序链表;
+package com.example.suanfaxuexiwangteng.链表.合并两个有序链表;
 
 
 import java.util.LinkedList;

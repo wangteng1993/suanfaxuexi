@@ -1,7 +1,7 @@
-package com.example.suanfaxuexiwangteng._18链表的中间节点;
+package com.example.suanfaxuexiwangteng.链表._18链表的中间节点;
 
 import cn.hutool.json.JSONUtil;
-import com.example.suanfaxuexiwangteng.common.ListNode;
+import com.example.suanfaxuexiwangteng.链表.common.ListNode;
 
 /**
  * 返回链表中间节点 如果有两个则返回第二个

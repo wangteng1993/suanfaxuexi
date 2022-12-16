@@ -1,4 +1,4 @@
-package com.example.suanfaxuexiwangteng.两数之和;
+package com.example.suanfaxuexiwangteng.数组.两数之和;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,7 +1,7 @@
-package com.example.suanfaxuexiwangteng._16反转链表;
+package com.example.suanfaxuexiwangteng.链表._16反转链表;
 
 import cn.hutool.json.JSONUtil;
-import com.example.suanfaxuexiwangteng.common.ListNode;
+import com.example.suanfaxuexiwangteng.链表.common.ListNode;
 
 public class Solution {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.example.suanfaxuexiwangteng._12删除排序列表中重复元素;
+package com.example.suanfaxuexiwangteng.链表._12删除排序列表中重复元素;
 
-import com.example.suanfaxuexiwangteng.common.ListNode;
+import com.example.suanfaxuexiwangteng.链表.common.ListNode;
 
 public class Solution {
     public static void main(String[] args) {

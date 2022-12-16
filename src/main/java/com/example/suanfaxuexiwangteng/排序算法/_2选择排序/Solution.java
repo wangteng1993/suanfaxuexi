@@ -1,4 +1,4 @@
-package com.example.suanfaxuexiwangteng.排序算法.选择排序;
+package com.example.suanfaxuexiwangteng.排序算法._2选择排序;
 
 import cn.hutool.json.JSONUtil;
 

@@ -1,6 +1,6 @@
-package com.example.suanfaxuexiwangteng._13环形链表;
+package com.example.suanfaxuexiwangteng.链表._13环形链表;
 
-import com.example.suanfaxuexiwangteng.common.ListNode;
+import com.example.suanfaxuexiwangteng.链表.common.ListNode;
 
 /**
  * 判断链表是否有环

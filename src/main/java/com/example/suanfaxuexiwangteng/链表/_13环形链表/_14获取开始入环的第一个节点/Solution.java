@@ -1,6 +1,6 @@
-package com.example.suanfaxuexiwangteng._13环形链表._14获取开始入环的第一个节点;
+package com.example.suanfaxuexiwangteng.链表._13环形链表._14获取开始入环的第一个节点;
 
-import com.example.suanfaxuexiwangteng.common.ListNode;
+import com.example.suanfaxuexiwangteng.链表.common.ListNode;
 
 /**
  * 返回环指针的第一个节点

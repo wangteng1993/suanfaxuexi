@@ -1,4 +1,4 @@
-package com.example.suanfaxuexiwangteng.移动零;
+package com.example.suanfaxuexiwangteng.数组.移动零;
 
 import java.util.Arrays;
 

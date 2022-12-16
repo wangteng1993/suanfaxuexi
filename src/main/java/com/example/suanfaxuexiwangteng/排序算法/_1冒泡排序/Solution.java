@@ -1,4 +1,4 @@
-package com.example.suanfaxuexiwangteng.排序算法.冒泡排序;
+package com.example.suanfaxuexiwangteng.排序算法._1冒泡排序;
 
 import cn.hutool.json.JSONUtil;
 

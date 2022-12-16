@@ -1,4 +1,4 @@
-package com.example.suanfaxuexiwangteng.common;
+package com.example.suanfaxuexiwangteng.链表.common;
 
 public class ListNode
 {
