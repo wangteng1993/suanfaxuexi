@@ -32,6 +32,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>bootstrap4-duallistbox</artifactId>
+            <version>4.0.2</version>
+        </dependency>
     </dependencies>
 
     <build>
