@@ -4,6 +4,8 @@ import cn.hutool.json.JSONUtil;
 import com.example.suanfaxuexiwangteng.链表.common.ListNode;
 
 public class Solution {
+    static ListNode next;
+
     public static void main(String[] args) {
         ListNode listNode1 = new ListNode(1);
         ListNode listNode2 = new ListNode(2);
@@ -14,18 +16,24 @@ public class Solution {
         listNode3.next = listNode4;
         System.out.println(JSONUtil.parse(双指针(listNode1)).toString());
     }
-    static ListNode 双指针(ListNode head){
+
+    /**
+     * 迭代
+     * @param head
+     * @return
+     */
+    static ListNode 双指针(ListNode head) {
         ListNode nodeA = head;
-        ListNode nodeb=null;
-        while (nodeA!=null){
+        ListNode nodeb = null;
+        while (nodeA != null) {
             //缓存a链表next
-            ListNode next = nodeA.next;
+            next = nodeA.next;
             //将b赋值给a的next 实现反转
-            nodeA.next=nodeb;
+            nodeA.next = nodeb;
             //b指针前进一位
-            nodeb=nodeA;
+            nodeb = nodeA;
             //a指针前进一位
-            nodeA=next;
+            nodeA = next;
         }
         return nodeb;
 

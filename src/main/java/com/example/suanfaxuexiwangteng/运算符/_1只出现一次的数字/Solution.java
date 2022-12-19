@@ -1,4 +1,4 @@
-package com.example.suanfaxuexiwangteng.数组._1只出现一次的数字;
+package com.example.suanfaxuexiwangteng.运算符._1只出现一次的数字;
 
 /**
  * 一个出现一次 其余都出现两次 找出出现一次的数据
