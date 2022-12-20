@@ -6,8 +6,8 @@ import java.util.Map;
 
 public class Solution {
     public static void main(String[] args) {
-        int[] ints = {1, 2, 3, 4};
-        System.out.println(Arrays.toString(twoSum(ints, 5)));
+        int[] ints = {3, 3};
+        System.out.println(Arrays.toString(twoSum(ints, 6)));
     }
     static Map<Integer,Integer> map=new HashMap<Integer,Integer>();
     public static int [] twoSum(int[] nums, int target){
@@ -16,8 +16,8 @@ public class Solution {
             int value = target - nums[i];
             //有值
             if (map.get(value)!=null){
-                result[0]=nums[i];
-                result[1]=nums[map.get(value)];
+                result[0]=i;
+                result[1]=map.get(value);
                 return result;
             }
             map.put(nums[i],i);
