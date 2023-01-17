@@ -46,18 +46,14 @@ public class _1入场安检 {
 
         //逻辑 值为4 则查找 （k-1）-3
         // dp[6]=dp[6]+dp[3] dp[5]=dp[5]+dp[2] dp[4]=dp[4]+dp[1] dp[3]=dp[3]+dp[0]
-        for(int c : capacities){
-            for(int j = k; j >= c - 1; j--){
-                dp[j] = (dp[j] + dp[j - c + 1]) ;
+        for (int c : capacities) {
+            for (int j = k; j >= c - 1; j--) {
+                dp[j] = (dp[j] + dp[j - c + 1]);
             }
         }
 
         return dp[k];
     }
-
-
-
-
 
 
 }
